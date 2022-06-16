@@ -1,0 +1,84 @@
+
+
+.piedepagina {
+    background-color: #5a189a;
+    padding-top: 30px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+
+    & h4 {
+        margin: 0 35px;
+        font-family: $titulos;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    & a {
+        margin: 1 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    & a:hover{
+        color: #c77dff;
+    }
+}
+
+.comparte {
+    text-align: center;
+    font-family: $titulos;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content:space-around;
+    margin: 0 126px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+
+    & a {
+        font-size: $textMedium;
+        color: #ffffff;
+    }
+
+    & a:hover{
+        color: #c77dff;
+    }
+}
+
+.encuentranos{
+
+    & h4 {
+        font-family: $titulos;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    & a {
+        font-family:$parrafos;
+        color: #ffffff;
+    }
+
+    & a:hover{
+        color: #c77dff;
+    }
+}
+
+
+
+.copy {
+    background-color: black;
+
+    & h4 {
+        color: white;
+        text-align: center;
+        font-size: $textXs;
+        margin-top: 5px;
+        font-family:$parrafos;
+    }
+}

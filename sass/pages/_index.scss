@@ -1,0 +1,235 @@
+.banner{
+  background-size: contain;
+}
+
+/*.carousel {
+  margin-bottom: 4rem;
+}
+*/
+
+.carousel-caption {
+  bottom: 10%;
+  z-index: 10;
+}
+
+p.carousel__texto{
+  color: #ffffff;
+  font-size: $textMedium;
+  font-family: $parrafos;
+}
+
+h2.carousel__titulo{
+  color: #ffffff;
+  font-size: $textXL;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  margin-bottom: 100px;
+}
+
+
+
+/* grilla de "nosotros" */
+
+img.nosotros__img{
+  width: 450px;
+  height: 500px;
+  margin-top: 83px;
+}
+
+h3.nosotros {
+  padding-bottom: 30px;
+  padding-top: 160px;
+  font-family: $titulos;
+}
+
+p.enunciado {
+  text-align: justify;
+  font-family: $parrafos;
+}
+
+
+/*sección de productos*/
+
+h2.product__title {
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 15px;
+  font-family: $titulos;
+}
+
+.diagrama{
+  width: 100vh;
+}
+
+h5.card-title{
+  font-family: $titulos;
+}
+
+p.card-text{
+  font-family: $parrafos;
+}
+
+a.btn.btn-primary{
+
+  .btn-outline-light {
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa;
+  }
+
+  .btn-outline-light:hover {
+    color: #3b2102;
+    background-color: #d1b360;
+    border-color: none;
+  }
+}
+
+.row {
+  justify-content: space-evenly;
+}
+
+
+/*Tablet*/
+
+@media only screen and (max-width: 1000px){
+
+  /*banner*/
+  .w-100 {
+    margin-top: 85px;
+  }
+
+  p.carousel__texto{
+    color: #000000;
+    font-size: $textSmall;
+  }
+
+  h2.carousel__titulo{
+    color: #000000;
+    font-size: $textLarge;
+  }
+
+  .btn-lg, .btn-group-lg > .btn {
+    margin-bottom: 0;
+  }
+  /*sección de nosotros*/
+
+
+  h2.product__title {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+  }
+  img.nosotros__img{
+    width: 100%;
+    height: 441px;
+    margin-top: 50px;
+
+  }
+
+  h3.nosotros {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
+
+  p.enunciado {
+    text-align: justify;
+  }
+
+  /*pie de página*/
+  .redes-sociales{
+    margin: 0 50px;
+ }
+
+  .contacto {
+    text-align: center;
+    padding-bottom: 15px;
+ }
+
+  .ubi {
+    margin-bottom: 10px;
+ }
+
+}
+
+/*Móvil*/
+@media only screen and (max-width: 600px){
+
+  /*banner*/
+  .w-100 {
+    margin-top: 84px;
+  }
+
+  p.carousel__texto{
+    display: none;
+  }
+
+  h2.carousel__titulo{
+    font-size: $textMedium;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  h3.nosotros {
+    padding-bottom: 30px;
+    padding-top: 160px;
+    font-family: $titulos;
+  }
+
+
+  .btn-lg, .btn-group-lg > .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: 1.3rem;
+    margin-bottom: 0;
+}
+
+
+
+  /*sección de nosotros*/
+
+  h2.product__title {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
+  img.nosotros__img{
+    width: 100%;
+    height: 407px;
+    margin-top: 30px;
+
+  }
+
+  h3.nosotros {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
+
+  p.enunciado {
+    text-align: justify;
+  }
+
+  /*pie de página*/
+
+
+
+  .contacto {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+ }
+
+
+}
